@@ -1,0 +1,1364 @@
+{
+  "words": [
+    {
+      "id": "001",
+      "questionText": "事の善悪や是非にかかわらず、人のいいなりになる様子を四字熟語で何という？",
+      "questionVoice": "words/1history/question/q001.wav",
+      "answer": "唯唯諾諾(いいだくだく)",
+      "answerVoice": "words/1history/answer/a001.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "002",
+      "questionText": "新型コロナウイルスに対する国内初流通の飲み薬の名称は？",
+      "questionVoice": "words/1history/question/q002.wav",
+      "answer": "ラゲブリオ（もしくは一般名「モルヌピラビル」）",
+      "answerVoice": "words/1history/answer/a002.wav",
+      "difficulty": "A",
+      "genreId": "1"
+    },
+    {
+      "id": "003",
+      "questionText": "1549年日本に初めてキリスト教を伝え、東洋の使徒と言われた人は？",
+      "questionVoice": "words/1history/question/q003.wav",
+      "answer": "フランシスコ・ザビエル",
+      "answerVoice": "words/1history/answer/a003.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "004",
+      "questionText": "初代の内閣総理大臣の名前は？",
+      "questionVoice": "words/1history/question/q004.wav",
+      "answer": "伊藤博文",
+      "answerVoice": "words/1history/answer/a004.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "005",
+      "questionText": "平成は何年度まであったか？",
+      "questionVoice": "words/1history/question/q005.wav",
+      "answer": "平成31年",
+      "answerVoice": "words/1history/answer/a005.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "006",
+      "questionText": "世界恐慌とはどこの国から世界的に始まったか",
+      "questionVoice": "words/1history/question/q006.wav",
+      "answer": "アメリカ",
+      "answerVoice": "words/1history/answer/a006.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "007",
+      "questionText": "現在の成人年齢は何歳か",
+      "questionVoice": "words/1history/question/q007.wav",
+      "answer": "18歳",
+      "answerVoice": "words/1history/answer/a007.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "008",
+      "questionText": "日本地図を最初に作成した人物は誰か？",
+      "questionVoice": "words/1history/question/q008.wav",
+      "answer": "伊能忠敬",
+      "answerVoice": "words/1history/answer/a008.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "009",
+      "questionText": "平安時代中期に成立した長編物語「源氏物語」の作者は？",
+      "questionVoice": "words/1history/question/q009.wav",
+      "answer": "紫式部",
+      "answerVoice": "words/1history/answer/a009.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "010",
+      "questionText": "「パンがなければお菓子を食べればいいじゃない」のフレーズで有名なフランス王妃は？",
+      "questionVoice": "words/1history/question/q010.wav",
+      "answer": "マリー・アントワネット",
+      "answerVoice": "words/1history/answer/a010.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "011",
+      "questionText": "もともと力のあるものが、さらに力を蓄えて、より強くなること。の意味で使われることわざは？",
+      "questionVoice": "words/1history/question/q011.wav",
+      "answer": "鬼に金棒",
+      "answerVoice": "words/1history/answer/a011.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "012",
+      "questionText": "どんなに上手な人でも、時には失敗するという意味で使われることわざは？",
+      "questionVoice": "words/1history/question/q012.wav",
+      "answer": "河童の川流れ",
+      "answerVoice": "words/1history/answer/a012.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "013",
+      "questionText": "平凡な人間でも、三人集まって考えれば、よい知恵がうかぶという意味で使われることわざは？",
+      "questionVoice": "words/1history/question/q013.wav",
+      "answer": "三人寄れば文殊の知恵",
+      "answerVoice": "words/1history/answer/a013.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "014",
+      "questionText": "743年聖武天皇が制定した古代の土地法は？",
+      "questionVoice": "words/1history/question/q014.wav",
+      "answer": "墾田永年私財法",
+      "answerVoice": "words/1history/answer/a014.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "015",
+      "questionText": "徳川幕府は何代まで続いたか？",
+      "questionVoice": "words/1history/question/q015.wav",
+      "answer": "15代",
+      "answerVoice": "words/1history/answer/a015.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "016",
+      "questionText": "初代江戸幕府の初代は誰か？",
+      "questionVoice": "words/1history/question/q016.wav",
+      "answer": "徳川家康",
+      "answerVoice": "words/1history/answer/a016.wav",
+      "difficulty": "C",
+      "genreId": "1"
+    },
+    {
+      "id": "017",
+      "questionText": "1840年に英国が広州で起こした戦争は何か？",
+      "questionVoice": "words/1history/question/q017.wav",
+      "answer": "アヘン戦争",
+      "answerVoice": "words/1history/answer/a017.wav",
+      "difficulty": "B",
+      "genreId": "1"
+    },
+    {
+      "id": "018",
+      "questionText": "インカ帝国を滅ぼしたスペイン人は？",
+      "questionVoice": "words/1history/question/q018.wav",
+      "answer": "フランシスコ・ピサロ",
+      "answerVoice": "words/1history/answer/a018.wav",
+      "difficulty": "S",
+      "genreId": "1"
+    },
+    {
+      "id": "019",
+      "questionText": "太陽の活動が激しくなったとき、地球の主に北半球で見られる大気中の発光現象は何か？　また、その現象の別名は「極光（きょっこう）」とも呼ばれる",
+      "questionVoice": "words/2science/question/q001.wav",
+      "answer": "オーロラ",
+      "answerVoice": "words/2science/answer/a001.wav",
+      "difficulty": "C",
+      "genreId": "2"
+    },
+    {
+      "id": "020",
+      "questionText": "空はどこから宇宙ですか？（国際航空連盟組織の定義とする）",
+      "questionVoice": "words/2science/question/q002.wav",
+      "answer": "上空100kmから（10万メートル）",
+      "answerVoice": "words/2science/answer/a002.wav",
+      "difficulty": "B",
+      "genreId": "2"
+    },
+    {
+      "id": "021",
+      "questionText": "太陽と月が重なって、太陽が欠ける天体現象はなんというか？",
+      "questionVoice": "words/2science/question/q003.wav",
+      "answer": "日食",
+      "answerVoice": "words/2science/answer/a003.wav",
+      "difficulty": "C",
+      "genreId": "2"
+    },
+    {
+      "id": "022",
+      "questionText": "日本周辺海域で確認された、水と天然ガスの成分が結びついてできた、「燃える氷」とも呼ばれる氷状の物質を何というでしょうか？",
+      "questionVoice": "words/2science/question/q004.wav",
+      "answer": "メタンハイドレート",
+      "answerVoice": "words/2science/answer/a004.wav",
+      "difficulty": "B",
+      "genreId": "2"
+    },
+    {
+      "id": "023",
+      "questionText": "夏の大三角といえば、「デネブ」、「アルタイル」、「ベガ」ですが、これらの星はそれぞれある星座のα（アルファ）星です。それぞれ対応する星座は何でしょうか？",
+      "questionVoice": "words/2science/question/q005.wav",
+      "answer": "デネブ：白鳥座、アルタイル：わし座、ベガ：こと座",
+      "answerVoice": "words/2science/answer/a005.wav",
+      "difficulty": "A",
+      "genreId": "2"
+    },
+    {
+      "id": "024",
+      "questionText": "発達した熱帯低気圧を、太平洋地域では台風、大西洋地域ではハリケーンと呼びますが、インド洋地域では何と呼ぶでしょうか？",
+      "questionVoice": "words/2science/question/q006.wav",
+      "answer": "サイクロン",
+      "answerVoice": "words/2science/answer/a006.wav",
+      "difficulty": "B",
+      "genreId": "2"
+    },
+    {
+      "id": "025",
+      "questionText": "ガソリンなどを燃やすと発生する、地球温暖化の原因とされる温室効果ガスは何か？",
+      "questionVoice": "words/2science/question/q007.wav",
+      "answer": "二酸化炭素、CO2",
+      "answerVoice": "words/2science/answer/a007.wav",
+      "difficulty": "C",
+      "genreId": "2"
+    },
+    {
+      "id": "026",
+      "questionText": "昨年６月、Googleの技術者によって円周率の算出世界記録が更新されましたが、およそ何桁まで計算されたでしょう？",
+      "questionVoice": "words/2science/question/q008.wav",
+      "answer": "約１００兆桁",
+      "answerVoice": "words/2science/answer/a008.wav",
+      "difficulty": "A",
+      "genreId": "2"
+    },
+    {
+      "id": "027",
+      "questionText": "ワニの獲物をくわえて回転する攻撃方法は？",
+      "questionVoice": "words/2science/question/q009.wav",
+      "answer": "デスロール",
+      "answerVoice": "words/2science/answer/a009.wav",
+      "difficulty": "C",
+      "genreId": "2"
+    },
+    {
+      "id": "028",
+      "questionText": "バビルサという動物の角のように見えるものはなにか？",
+      "questionVoice": "words/2science/question/q010.wav",
+      "answer": "牙（牙が顔面を貫通して角のように見える）",
+      "answerVoice": "words/2science/answer/a010.wav",
+      "difficulty": "B",
+      "genreId": "2"
+    },
+    {
+      "id": "029",
+      "questionText": "日本海の海底にあると言われる、新しいエネルギーの天然ガスとは？",
+      "questionVoice": "words/2science/question/q011.wav",
+      "answer": "メタンハイドレート",
+      "answerVoice": "words/2science/answer/a011.wav",
+      "difficulty": "C",
+      "genreId": "2"
+    },
+    {
+      "id": "030",
+      "questionText": "近年の海面上昇や大雨により、町全体が水没の危機にあるイタリアの都市は？",
+      "questionVoice": "words/3society/question/q001.wav",
+      "answer": "ヴェネツィア",
+      "answerVoice": "words/3society/answer/a001.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "031",
+      "questionText": "古代ギリシャの3大哲学者といえば、ソクラテス、プラトン、あと一人は誰？",
+      "questionVoice": "words/3society/question/q002.wav",
+      "answer": "アリストテレス",
+      "answerVoice": "words/3society/answer/a002.wav",
+      "difficulty": "B",
+      "genreId": "3"
+    },
+    {
+      "id": "032",
+      "questionText": "スペインにある139年経っているが現在も未完成の聖家族教会の名前は",
+      "questionVoice": "words/3society/question/q003.wav",
+      "answer": "サクラダファミリア",
+      "answerVoice": "words/3society/answer/a003.wav",
+      "difficulty": "B",
+      "genreId": "3"
+    },
+    {
+      "id": "033",
+      "questionText": "日本で最も高い山は何か？",
+      "questionVoice": "words/3society/question/q004.wav",
+      "answer": "富士山",
+      "answerVoice": "words/3society/answer/a004.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "034",
+      "questionText": "日本で5番目に面積の広い都道府県は？",
+      "questionVoice": "words/3society/question/q005.wav",
+      "answer": "新潟県",
+      "answerVoice": "words/3society/answer/a005.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "035",
+      "questionText": "日本最南端の都道府県はどこでしょう？",
+      "questionVoice": "words/3society/question/q006.wav",
+      "answer": "東京都",
+      "answerVoice": "words/3society/answer/a006.wav",
+      "difficulty": "B",
+      "genreId": "3"
+    },
+    {
+      "id": "037",
+      "questionText": "日本で海に接していない県は幾つか",
+      "questionVoice": "words/3society/question/q008.wav",
+      "answer": "8つ（群馬 栃木 埼玉 長野 山梨 岐阜 滋賀 奈良）",
+      "answerVoice": "words/3society/answer/a008.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "038",
+      "questionText": "日本で2番目に高い山は何か？",
+      "questionVoice": "words/3society/question/q009.wav",
+      "answer": "北岳",
+      "answerVoice": "words/3society/answer/a009.wav",
+      "difficulty": "B",
+      "genreId": "3"
+    },
+    {
+      "id": "039",
+      "questionText": "日本で1番面積が小さい都道府県は？",
+      "questionVoice": "words/3society/question/q010.wav",
+      "answer": "香川県",
+      "answerVoice": "words/3society/answer/a010.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "040",
+      "questionText": "世界遺産のマチュピチュがある国の名前は？",
+      "questionVoice": "words/3society/question/q011.wav",
+      "answer": "ペルー",
+      "answerVoice": "words/3society/answer/a011.wav",
+      "difficulty": "B",
+      "genreId": "3"
+    },
+    {
+      "id": "041",
+      "questionText": "三重県の県庁所在地は何市？",
+      "questionVoice": "words/3society/question/q012.wav",
+      "answer": "津市",
+      "answerVoice": "words/3society/answer/a012.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "042",
+      "questionText": "人間は考える葦であるという言葉を残した思想家の名前は？",
+      "questionVoice": "words/3society/question/q013.wav",
+      "answer": "パスカル",
+      "answerVoice": "words/3society/answer/a013.wav",
+      "difficulty": "A",
+      "genreId": "3"
+    },
+    {
+      "id": "043",
+      "questionText": "日本３大花火大会はどこで行われているか？",
+      "questionVoice": "words/3society/question/q014.wav",
+      "answer": "秋田県 新潟県 茨城県",
+      "answerVoice": "words/3society/answer/a014.wav",
+      "difficulty": "S",
+      "genreId": "3"
+    },
+    {
+      "id": "044",
+      "questionText": "バチカン市国にある世界遺産に登録されているカトリック教会の総本山の建物は？",
+      "questionVoice": "words/3society/question/q015.wav",
+      "answer": "サン・ピエトロ大聖堂",
+      "answerVoice": "words/3society/answer/a015.wav",
+      "difficulty": "A",
+      "genreId": "3"
+    },
+    {
+      "id": "045",
+      "questionText": "キリスト教の始祖は？",
+      "questionVoice": "words/3society/question/q016.wav",
+      "answer": "イエス・キリスト",
+      "answerVoice": "words/3society/answer/a016.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "046",
+      "questionText": "世界で１番面積の小さい国は？",
+      "questionVoice": "words/3society/question/q017.wav",
+      "answer": "バチカン市国",
+      "answerVoice": "words/3society/answer/a017.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "047",
+      "questionText": "世界で１番面積の大きい国は？",
+      "questionVoice": "words/3society/question/q018.wav",
+      "answer": "ロシア",
+      "answerVoice": "words/3society/answer/a018.wav",
+      "difficulty": "C",
+      "genreId": "3"
+    },
+    {
+      "id": "049",
+      "questionText": "北大西洋条約機構を略して、アルファベットでなんという？",
+      "questionVoice": "words/3society/question/q019.wav",
+      "answer": "NATO",
+      "answerVoice": "words/3society/answer/a019.wav",
+      "difficulty": "A",
+      "genreId": "3"
+    },
+    {
+      "id": "048",
+      "questionText": "「ポン」「チー」「カン」といったコールが行われ、中国を起源とするボードゲームの名称は？",
+      "questionVoice": "words/4sports/question/q001.wav",
+      "answer": "麻雀",
+      "answerVoice": "words/4sports/answer/a001.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+
+    {
+      "id": "050",
+      "questionText": "世界の競技人口が一番多いスポーツは?",
+      "questionVoice": "words/4sports/question/q002.wav",
+      "answer": "バレーボール",
+      "answerVoice": "words/4sports/answer/a002.wav",
+      "difficulty": "A",
+      "genreId": "4"
+    },
+    {
+      "id": "051",
+      "questionText": "FIFAワールドカップで最も多く優勝している国はブラジルですが何回優勝しているでしょうか？",
+      "questionVoice": "words/4sports/question/q003.wav",
+      "answer": "5回",
+      "answerVoice": "words/4sports/answer/a003.wav",
+      "difficulty": "A",
+      "genreId": "4"
+    },
+    {
+      "id": "052",
+      "questionText": "2024年オリンピックが開催される場所は?",
+      "questionVoice": "words/4sports/question/q004.wav",
+      "answer": "パリ",
+      "answerVoice": "words/4sports/answer/a004.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "053",
+      "questionText": "野球のグランドスラムとは何のことか？",
+      "questionVoice": "words/4sports/question/q005.wav",
+      "answer": "満塁ホームラン",
+      "answerVoice": "words/4sports/answer/a005.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "054",
+      "questionText": "1チームの人数が一番多いスポーツは？",
+      "questionVoice": "words/4sports/question/q006.wav",
+      "answer": "ラグビー",
+      "answerVoice": "words/4sports/answer/a006.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "055",
+      "questionText": "去年の甲子園の優勝校はどこか？",
+      "questionVoice": "words/4sports/question/q007.wav",
+      "answer": "仙台育英",
+      "answerVoice": "words/4sports/answer/a007.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "056",
+      "questionText": "バレーボールで同じプレイヤーが2回連続でボールに触ることをなんと言うか？",
+      "questionVoice": "words/4sports/question/q008.wav",
+      "answer": "ダブルコンタクト",
+      "answerVoice": "words/4sports/answer/a008.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "057",
+      "questionText": "今年の箱根駅伝の優勝校はどこか？",
+      "questionVoice": "words/4sports/question/q009.wav",
+      "answer": "駒沢大学",
+      "answerVoice": "words/4sports/answer/a009.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "058",
+      "questionText": "プロ野球の「トリプルスリー」を達成することは打率3割、本塁打30本と何か？",
+      "questionVoice": "words/4sports/question/q010.wav",
+      "answer": "30盗塁",
+      "answerVoice": "words/4sports/answer/a010.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "059",
+      "questionText": "現在スペインのレアルソシエダで活躍している日本人サッカー選手の名前は？",
+      "questionVoice": "words/4sports/question/q011.wav",
+      "answer": "久保建英（苗字だけでもOK）",
+      "answerVoice": "words/4sports/answer/a011.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "060",
+      "questionText": "女子サッカーの日本代表チームのニックネームは？",
+      "questionVoice": "words/4sports/question/q012.wav",
+      "answer": "なでしこジャパン",
+      "answerVoice": "words/4sports/answer/a012.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "061",
+      "questionText": "ラグビーのニュージーランド代表のニックネームは？",
+      "questionVoice": "words/4sports/question/q013.wav",
+      "answer": "オールブラックス",
+      "answerVoice": "words/4sports/answer/a013.wav",
+      "difficulty": "C",
+      "genreId": "4"
+    },
+    {
+      "id": "062",
+      "questionText": "フィンランド発祥の競技で木製の棒を投げて、点数の書かれているピンを倒す競技は？",
+      "questionVoice": "words/4sports/question/q014.wav",
+      "answer": "モルック",
+      "answerVoice": "words/4sports/answer/a014.wav",
+      "difficulty": "S",
+      "genreId": "4"
+    },
+    {
+      "id": "063",
+      "questionText": "ラグビーの反則で、ボールを前に落とすことをなんという？",
+      "questionVoice": "words/4sports/question/q015.wav",
+      "answer": "ノックオン",
+      "answerVoice": "words/4sports/answer/a015.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "064",
+      "questionText": "現在56歳でポルトガルでプレーし、世界最高齢での得点というギネス記録を持っているサッカー選手をフルネームで答えろ",
+      "questionVoice": "words/4sports/question/q016.wav",
+      "answer": "三浦知良(みうらかずよし)",
+      "answerVoice": "words/4sports/answer/a016.wav",
+      "difficulty": "B",
+      "genreId": "4"
+    },
+    {
+      "id": "065",
+      "questionText": "ドイツ語で「狩人」の意味を持つ、漫画「進撃の巨人」主人公の名前はフルネームで何という？",
+      "questionVoice": "words/5anime/question/q001.wav",
+      "answer": "エレン・イェーガー",
+      "answerVoice": "words/5anime/answer/a001.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "066",
+      "questionText": "映画『千と千尋の神隠し』に登場するキャラクター「ハク」の本名は「ニギハヤミ」何でしょう？",
+      "questionVoice": "words/5anime/question/q002.wav",
+      "answer": "コハクヌシ",
+      "answerVoice": "words/5anime/answer/a002.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "067",
+      "questionText": "漫画「呪術廻戦」における登場人物の中で、五条悟の領域展開の名称は何というか？",
+      "questionVoice": "words/5anime/question/q003.wav",
+      "answer": "無量空処（むりょうくうしょ）",
+      "answerVoice": "words/5anime/answer/a003.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "068",
+      "questionText": "漫画「ワンピース」の麦わらの一味で５番目に仲間になったのは誰か？（ルフィを含まない）",
+      "questionVoice": "words/5anime/question/q004.wav",
+      "answer": "トニートニー・チョッパー",
+      "answerVoice": "words/5anime/answer/a004.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "069",
+      "questionText": "漫画「僕のヒーローアカデミア」の爆豪勝己の個性は何か？",
+      "questionVoice": "words/5anime/question/q005.wav",
+      "answer": "爆破",
+      "answerVoice": "words/5anime/answer/a005.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "070",
+      "questionText": "キティちゃんの正式名は？",
+      "questionVoice": "words/5anime/question/q006.wav",
+      "answer": "キティ ホワイト",
+      "answerVoice": "words/5anime/answer/a006.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "071",
+      "questionText": "ゲーム「ポケットモンスター」のイーブイの進化先は何種類あるか？",
+      "questionVoice": "words/5anime/question/q007.wav",
+      "answer": "8種類",
+      "answerVoice": "words/5anime/answer/a007.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "072",
+      "questionText": "ユーチューバー、ヒカキンさんの愛猫で、１匹の名前は「まるお」ですが、もう１匹の名前はなんでしょう？",
+      "questionVoice": "words/5anime/question/q008.wav",
+      "answer": "もふこ",
+      "answerVoice": "words/5anime/answer/a008.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "073",
+      "questionText": "テレビアニメドラえもんに登場する物体を小さくする秘密道具の名前は？",
+      "questionVoice": "words/5anime/question/q009.wav",
+      "answer": "スモールライト",
+      "answerVoice": "words/5anime/answer/a009.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "074",
+      "questionText": "テレビアニメ「推しの子」の主人公はだれか？",
+      "questionVoice": "words/5anime/question/q010.wav",
+      "answer": "星野アクアマリン（アクアでもOK）",
+      "answerVoice": "words/5anime/answer/a010.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "075",
+      "questionText": "ゲームポケットモンスターで第3世代のルビー・サファイアから登場したHPが１しかないポケモンは？",
+      "questionVoice": "words/5anime/question/q011.wav",
+      "answer": "ヌケニン",
+      "answerVoice": "words/5anime/answer/a011.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "076",
+      "questionText": "漫画「進撃の巨人」の巨人の弱点はどこか？",
+      "questionVoice": "words/5anime/question/q012.wav",
+      "answer": "うなじ",
+      "answerVoice": "words/5anime/answer/a012.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "077",
+      "questionText": "アニメ「ドラえもん」に登場するドラえもんは常に何ミリ浮いているか？",
+      "questionVoice": "words/5anime/question/q013.wav",
+      "answer": "3ミリ",
+      "answerVoice": "words/5anime/answer/a013.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "078",
+      "questionText": "アニメ「マッシュル-MASHLE-」に登場する主人公のマッシュルの好物はなにか？",
+      "questionVoice": "words/5anime/question/q014.wav",
+      "answer": "シュークリーム",
+      "answerVoice": "words/5anime/answer/a014.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "079",
+      "questionText": "アニメ「アンパンマン」に登場するアンパンマンの顔の中身は何あんか？",
+      "questionVoice": "words/5anime/question/q015.wav",
+      "answer": "つぶあん",
+      "answerVoice": "words/5anime/answer/a015.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "080",
+      "questionText": "アニメ「新世紀エヴァンゲリオン」に登場するロンギヌスの槍は絶望の象徴の槍ですが、では希望の象徴の槍はなに？",
+      "questionVoice": "words/5anime/question/q016.wav",
+      "answer": "カシウスの槍",
+      "answerVoice": "words/5anime/answer/a016.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "081",
+      "questionText": "モンスターストライクの2021新春で登場した限定キャラでの名前は？",
+      "questionVoice": "words/5anime/question/q017.wav",
+      "answer": "アルセーヌ",
+      "answerVoice": "words/5anime/answer/a017.wav",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": "082",
+      "questionText": "APEXリリース当初からあるマップの名前は？",
+      "questionVoice": "words/5anime/question/q018.wav",
+      "answer": "キングスキャニオン",
+      "answerVoice": "words/5anime/answer/a018.wav",
+      "difficulty": "A",
+      "genreId": "5"
+    },
+    {
+      "id": "083",
+      "questionText": "雷の呼吸１の型「霹靂一閃」を使うキャラクターの名前は？",
+      "questionVoice": "words/5anime/question/q019.wav",
+      "answer": "我妻善逸（あがつま ぜんいつ）",
+      "answerVoice": "words/5anime/answer/a019.wav",
+      "difficulty": "C",
+      "genreId": "5"
+    },
+    {
+      "id": "084",
+      "questionText": "短いサイクルで世界的に大量生産・販売するファッションブランドやその業態を何ファッションという？",
+      "questionVoice": "words/6lifestyle/question/q001.wav",
+      "answer": "ファストファッション",
+      "answerVoice": "words/6lifestyle/answer/a001.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "085",
+      "questionText": "ジャガイモの芽に含まれる毒素の名前は？",
+      "questionVoice": "words/6lifestyle/question/q002.wav",
+      "answer": "ソラニンorチャコニン",
+      "answerVoice": "words/6lifestyle/answer/a002.wav",
+      "difficulty": "A",
+      "genreId": "6"
+    },
+    {
+      "id": "086",
+      "questionText": "ニシローランドゴリラに1番多い血液型は何型でしょうか？",
+      "questionVoice": "words/6lifestyle/question/q003.wav",
+      "answer": "B型",
+      "answerVoice": "words/6lifestyle/answer/a003.wav",
+      "difficulty": "B",
+      "genreId": "6"
+    },
+    {
+      "id": "087",
+      "questionText": "ゾウ、サイ、キリンの中で一番血圧の高い動物は？",
+      "questionVoice": "words/6lifestyle/question/q004.wav",
+      "answer": "キリン",
+      "answerVoice": "words/6lifestyle/answer/a004.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "088",
+      "questionText": "全国の名字を人口の多い順にランキングした場合、３位高橋、２位鈴木、では１位は？",
+      "questionVoice": "words/6lifestyle/question/q005.wav",
+      "answer": "佐藤",
+      "answerVoice": "words/6lifestyle/answer/a005.wav",
+      "difficulty": "B",
+      "genreId": "6"
+    },
+    {
+      "id": "089",
+      "questionText": "ユネスコの無形文化遺産に登録された日本の食文化は？",
+      "questionVoice": "words/6lifestyle/question/q006.wav",
+      "answer": "和食",
+      "answerVoice": "words/6lifestyle/answer/a006.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "090",
+      "questionText": "上毛かるたの試合で最初に読まれるのは何の札？",
+      "questionVoice": "words/6lifestyle/question/q007.wav",
+      "answer": "つ（つる舞う形の群馬県）",
+      "answerVoice": "words/6lifestyle/answer/a007.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "091",
+      "questionText": "上毛かるたで「日本一」と詠われているものは、繭と何？",
+      "questionVoice": "words/6lifestyle/question/q008.wav",
+      "answer": "生糸（きいと）",
+      "answerVoice": "words/6lifestyle/answer/a008.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "092",
+      "questionText": "上毛かるたで「日本の名湯」と詠われている温泉は何？",
+      "questionVoice": "words/6lifestyle/question/q009.wav",
+      "answer": "伊香保温泉",
+      "answerVoice": "words/6lifestyle/answer/a009.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "093",
+      "questionText": "上毛かるたの「ふ」の札。「分福茶釜の・・・」とくれば、続くお寺は何？",
+      "questionVoice": "words/6lifestyle/question/q010.wav",
+      "answer": "茂林寺（もりんじ）",
+      "answerVoice": "words/6lifestyle/answer/a010.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "094",
+      "questionText": "上毛かるたに「ループで名高い」と詠われているトンネルは何？",
+      "questionVoice": "words/6lifestyle/question/q011.wav",
+      "answer": "清水（しみず）トンネル",
+      "answerVoice": "words/6lifestyle/answer/a011.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "095",
+      "questionText": "上毛かるたにも詠まれている「和算の大家」は誰？",
+      "questionVoice": "words/6lifestyle/question/q012.wav",
+      "answer": "関孝和（せき こうわ / せき たかかず）",
+      "answerVoice": "words/6lifestyle/answer/a012.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "096",
+      "questionText": "明治維新後に群馬の農業振興に努めた、上毛かるたに詠われている「老農」は誰？",
+      "questionVoice": "words/6lifestyle/question/q013.wav",
+      "answer": "船津伝次平（ふなつ でんじべい）",
+      "answerVoice": "words/6lifestyle/answer/a013.wav",
+      "difficulty": "C",
+      "genreId": "6"
+    },
+    {
+      "id": "097",
+      "questionText": "100円玉に描かれている花の種類は？",
+      "questionVoice": "words/6lifestyle/question/q014.wav",
+      "answer": "サクラ",
+      "answerVoice": "words/6lifestyle/answer/a014.wav",
+      "difficulty": "B",
+      "genreId": "6"
+    }
+  ],
+  "pictures": [
+    {
+      "id": 200,
+      "questionText": "この写真のキャラクターはなんという名前でしょう",
+      "questionVoice": "pictures/question-voice/q200.wav",
+      "answer": "ずんだもん",
+      "answerVoice": "pictures/answer-voice/a200.wav",
+      "path": "pictures/src/p200.png",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 201,
+      "questionText": "この男の子名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q201.wav",
+      "answer": "ソウスケ",
+      "answerVoice": "pictures/answer-voice/a201.wav",
+      "path": "pictures/src/p201.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 202,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q202.wav",
+      "answer": "鱗滝左近次（うろこだきさこんじ）",
+      "answerVoice": "pictures/answer-voice/a202.wav",
+      "path": "pictures/src/p202.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 203,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q203.wav",
+      "answer": "伏黒甚爾（ふしぐろとうじ）",
+      "answerVoice": "pictures/answer-voice/a203.wav",
+      "path": "pictures/src/p203.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 204,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q204.wav",
+      "answer": "ガノンドロフ",
+      "answerVoice": "pictures/answer-voice/a204.wav",
+      "path": "pictures/src/p204.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 205,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q205.wav",
+      "answer": "綾波レイ",
+      "answerVoice": "pictures/answer-voice/a205.wav",
+      "path": "pictures/src/p205.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 206,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q206.wav",
+      "answer": "キルア",
+      "answerVoice": "pictures/answer-voice/a206.wav",
+      "path": "pictures/src/p206.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 207,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q207.wav",
+      "answer": "メロンパンナちゃん",
+      "answerVoice": "pictures/answer-voice/a207.wav",
+      "path": "pictures/src/p207.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 208,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q208.wav",
+      "answer": "レム",
+      "answerVoice": "pictures/answer-voice/a208.wav",
+      "path": "pictures/src/p208.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 209,
+      "questionText": "このキャラクターの名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q209.wav",
+      "answer": "ハンコック",
+      "answerVoice": "pictures/answer-voice/a209.wav",
+      "path": "pictures/src/p209.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 210,
+      "questionText": "スプラトゥーンで登場するこの武器の名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q210.wav",
+      "answer": "わかばシューター",
+      "answerVoice": "pictures/answer-voice/a210.wav",
+      "path": "pictures/src/p210.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 211,
+      "questionText": "この芸能人の名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q211.wav",
+      "answer": "橋本環奈",
+      "answerVoice": "pictures/answer-voice/a211.wav",
+      "path": "pictures/src/p211.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 212,
+      "questionText": "この芸能人の名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q212.wav",
+      "answer": "野村周平",
+      "answerVoice": "pictures/answer-voice/a212.wav",
+      "path": "pictures/src/p212.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 213,
+      "questionText": "このスポーツ選手の名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q213.wav",
+      "answer": "大谷翔平",
+      "answerVoice": "pictures/answer-voice/a213.wav",
+      "path": "pictures/src/p213.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 214,
+      "questionText": "この芸能人の名前はなんでしょう",
+      "questionVoice": "pictures/question-voice/q214.wav",
+      "answer": "菜々緒",
+      "answerVoice": "pictures/answer-voice/a214.wav",
+      "path": "pictures/src/p214.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 215,
+      "questionText": "インド北部にある1631年に建設されたインド・イスラム文化を代表するこの建物は何か？",
+      "questionVoice": "pictures/question-voice/q215.wav",
+      "answer": "タージ・マハル",
+      "answerVoice": "pictures/answer-voice/a215.wav",
+      "path": "pictures/src/p215.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 216,
+      "questionText": "フランスの首都であり来年の夏季オリンピックの開催地であるこの観光名所は何でしょう",
+      "questionVoice": "pictures/question-voice/q216.wav",
+      "answer": "パリ",
+      "answerVoice": "pictures/answer-voice/a216.wav",
+      "path": "pictures/src/p216.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 217,
+      "questionText": "プロバスケットボールチーム横浜ビーコルセアーズに所属し、今年行われたバスケワールドカップでは、「Wゆうき」の愛称で知られたこの選手は誰でしょう",
+      "questionVoice": "pictures/question-voice/q217.wav",
+      "answer": "河村勇輝",
+      "answerVoice": "pictures/answer-voice/a217.wav",
+      "path": "pictures/src/p217.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 218,
+      "questionText": "2023年8月にバスケワールドカップが開催されたこの会場の名前は何でしょう",
+      "questionVoice": "pictures/question-voice/q218.wav",
+      "answer": "沖縄アリーナ",
+      "answerVoice": "pictures/answer-voice/a218.wav",
+      "path": "pictures/src/p218.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 219,
+      "questionText": "プロ野球チーム東京ヤクルトスワローズが本拠地として使用し、隣に国立競技場などがあるこの野球場はどこでしょう",
+      "questionVoice": "pictures/question-voice/q219.wav",
+      "answer": "明治神宮野球場",
+      "answerVoice": "pictures/answer-voice/a219.wav",
+      "path": "pictures/src/p219.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 220,
+      "questionText": "プロ野球チーム阪神タイガースが本拠地として使用し、高校野球の聖地などと言われるこの屋外球場はどこでしょう",
+      "questionVoice": "pictures/question-voice/q220.wav",
+      "answer": "阪神甲子園球場",
+      "answerVoice": "pictures/answer-voice/a220.wav",
+      "path": "pictures/src/p220.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 221,
+      "questionText": "広島県にある修学旅行の観光地として有名なこのドーム状の建物をなんという",
+      "questionVoice": "pictures/question-voice/q221.wav",
+      "answer": "原爆ドーム",
+      "answerVoice": "pictures/answer-voice/a221.wav",
+      "path": "pictures/src/p221.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 222,
+      "questionText": "今シーズン、プロバスケットボールチーム長崎ヴェルカに移籍し、ワールドカップでも大活躍だったこの選手はだれか",
+      "questionVoice": "pictures/question-voice/q222.wav",
+      "answer": "馬場雄大",
+      "answerVoice": "pictures/answer-voice/a222.wav",
+      "path": "pictures/src/p222.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 223,
+      "questionText": "イタリアにある高さ55mの斜めに傾いて立っているこの建物をなんという",
+      "questionVoice": "pictures/question-voice/q223.wav",
+      "answer": "ピサの斜塔",
+      "answerVoice": "pictures/answer-voice/a223.wav",
+      "path": "pictures/src/p223.jpg",
+      "difficulty": "",
+      "genreId": ""
+    },
+    {
+      "id": 299,
+      "questionText": "このキャラクターの名前をフルネームで答えよ",
+      "questionVoice": "pictures/question-voice/q299.wav",
+      "answer": "五条悟",
+      "answerVoice": "pictures/answer-voice/a299.wav",
+      "path": "pictures/src/p299.jpg",
+      "difficulty": "",
+      "genreId": ""
+    }
+  ],
+  "videos": [
+    {
+      "id": 301,
+      "questionText": "該当なし",
+      "questionVoice": "videos/question-voice/question301.wav",
+      "answer": "",
+      "answerVoice": "videos/answer-voice/answer301.wav",
+      "answerPicture": "videos/answer-pic/answer301.png",
+      "path": "videos/src/video301.mp4",
+      "difficulty": "B",
+      "genreId": "5"
+    }
+  ],
+  "music": [
+    {
+      "id": 401,
+      "answerArtist": "キタニタツヤ",
+      "answerSong": "青のすみか",
+      "answerArtistVoice": "music/answer-voice/answer-artist401.wav",
+      "answerSongVoice": "music/answer-voice/answer-song401.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first401.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second401.jpg",
+      "path": "music/src/401kitanitatuya - aonosumika.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 402,
+      "answerArtist": "king gnu",
+      "answerSong": "一途（いちず）",
+      "answerArtistVoice": "music/answer-voice/answer-artist402.wav",
+      "answerSongVoice": "music/answer-voice/answer-song402.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first402.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second402.jpg",
+      "path": "music/src/402king gnu - itizu.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 403,
+      "answerArtist": "Official髭男dism（髭男）",
+      "answerSong": "ミックスナッツ",
+      "answerArtistVoice": "music/answer-voice/answer-artist403.wav",
+      "answerSongVoice": "music/answer-voice/answer-song403.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first403.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second403.jpg",
+      "path": "music/src/403higedan - mikkusunattu.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 404,
+      "answerArtist": "サカナクション",
+      "answerSong": "新宝島",
+      "answerArtistVoice": "music/answer-voice/answer-artist404.wav",
+      "answerSongVoice": "music/answer-voice/answer-song404.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first404.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second404.jpg",
+      "path": "music/src/404sakanakusyon - sintakarazima.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 405,
+      "answerArtist": "優里",
+      "answerSong": "ドライフラワー",
+      "answerArtistVoice": "music/answer-voice/answer-artist405.wav",
+      "answerSongVoice": "music/answer-voice/answer-song405.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first405.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second405.jpg",
+      "path": "music/src/405yuuri - doraihurawa.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 406,
+      "answerArtist": "山野さと子",
+      "answerSong": "ドラえもんのうた",
+      "answerArtistVoice": "music/answer-voice/answer-artist406.wav",
+      "answerSongVoice": "music/answer-voice/answer-song406.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first406.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second406.jpg",
+      "path": "music/src/406yamanosatoko - doraemon.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 407,
+      "answerArtist": "wands",
+      "answerSong": "世界が終わるまでは",
+      "answerArtistVoice": "music/answer-voice/answer-artist407.wav",
+      "answerSongVoice": "music/answer-voice/answer-song407.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first407.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second407.jpg",
+      "path": "music/src/407wands - sekaigaowarumadeha.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 408,
+      "answerArtist": "岩崎良美",
+      "answerSong": "タッチ",
+      "answerArtistVoice": "music/answer-voice/answer-artist408.wav",
+      "answerSongVoice": "music/answer-voice/answer-song408.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first408.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second408.jpg",
+      "path": "music/src/408iwasaki - tatti.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 409,
+      "answerArtist": "槇原敬之",
+      "answerSong": "もう恋なんてしない",
+      "answerArtistVoice": "music/answer-voice/answer-artist409.wav",
+      "answerSongVoice": "music/answer-voice/answer-song409.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first409.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second409.jpg",
+      "path": "music/src/409makihara - moukoinantesinai.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 410,
+      "answerArtist": "B.B.Queens",
+      "answerSong": "おどるポンポコリン",
+      "answerArtistVoice": "music/answer-voice/answer-artist410.wav",
+      "answerSongVoice": "music/answer-voice/answer-song410.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first410.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second410.jpg",
+      "path": "music/src/410bbqueens - ponpokorin.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 411,
+      "answerArtist": "Official髭男dism（髭男）",
+      "answerSong": "ノーダウト",
+      "answerArtistVoice": "music/answer-voice/answer-artist411.wav",
+      "answerSongVoice": "music/answer-voice/answer-song411.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first411.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second411.jpg",
+      "path": "music/src/411higedan - nodauto.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 412,
+      "answerArtist": "菅田将暉",
+      "answerSong": "さよならエレジー",
+      "answerArtistVoice": "music/answer-voice/answer-artist412.wav",
+      "answerSongVoice": "music/answer-voice/answer-song412.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first412.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second412.jpg",
+      "path": "music/src/412sudamasaki - sayonaraerezi.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 413,
+      "answerArtist": "Uru",
+      "answerSong": "それを愛と呼ぶなら",
+      "answerArtistVoice": "music/answer-voice/answer-artist413.wav",
+      "answerSongVoice": "music/answer-voice/answer-song413.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first413.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second413.jpg",
+      "path": "music/src/413uru - sorewoaitoyobunara.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 414,
+      "answerArtist": "back number",
+      "answerSong": "アイラブユー",
+      "answerArtistVoice": "music/answer-voice/answer-artist414.wav",
+      "answerSongVoice": "music/answer-voice/answer-song414.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first414.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second414.jpg",
+      "path": "music/src/414back number - i love you.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 415,
+      "answerArtist": "niziu",
+      "answerSong": "Make you happy",
+      "answerArtistVoice": "music/answer-voice/answer-artist415.wav",
+      "answerSongVoice": "music/answer-voice/answer-song415.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first415.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second415.jpg",
+      "path": "music/src/415niziu-make you happy.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 416,
+      "answerArtist": "Lisa",
+      "answerSong": "炎",
+      "answerArtistVoice": "music/answer-voice/answer-artist416.wav",
+      "answerSongVoice": "music/answer-voice/answer-song416.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first416.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second416.jpg",
+      "path": "music/src/416lisa-homura.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 417,
+      "answerArtist": "DISH",
+      "answerSong": "猫",
+      "answerArtistVoice": "music/answer-voice/answer-artist417.wav",
+      "answerSongVoice": "music/answer-voice/answer-song417.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first417.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second417.jpg",
+      "path": "music/src/417dish-neko.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 418,
+      "answerArtist": "Mrs.GREEN APPLE",
+      "answerSong": "青と夏",
+      "answerArtistVoice": "music/answer-voice/answer-artist418.wav",
+      "answerSongVoice": "music/answer-voice/answer-song418.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first418.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second418.jpg",
+      "path": "music/src/418mrs-aotonatu.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    },
+    {
+      "id": 419,
+      "answerArtist": "Aimer",
+      "answerSong": "残響散歌",
+      "answerArtistVoice": "music/answer-voice/answer-artist419.wav",
+      "answerSongVoice": "music/answer-voice/answer-song419.wav",
+      "firstHintPicture": "music/answer-pictures/answer-first419.jpg",
+      "secondHintPicture": "music/answer-pictures/answer-second419.jpg",
+      "path": "music/src/419aimer-zankyou.mp3",
+      "difficulty": "B",
+      "genreId": "5"
+    }
+  ]
+}
