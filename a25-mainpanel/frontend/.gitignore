@@ -36,4 +36,15 @@ yarn-error.log*
 next-env.d.ts
 
 # my-choice
-/public/final-quiz/**
+
+# final-quiz直下の著作権関係のみを無視
+/public/final-quiz/*.*
+
+!/public/final-quiz/*.png
+!/public/final-quiz/final*.wav
+!/public/final-quiz/thank*.wav
+!/public/final-quiz/genre*.mp3
+!/public/final-quiz/uma*.mp3
+
+# final-quizのサブディレクトリを無視（必要に応じて）
+/public/final-quiz/*/
