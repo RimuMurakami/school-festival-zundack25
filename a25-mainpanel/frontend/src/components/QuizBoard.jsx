@@ -313,15 +313,3 @@ export default function QuizBoard({}) {
     </>
   );
 }
-
-/*
-テーブル構造
-target 1: red 2: blue 3: green
-status:
-    0: gamenow
-    それ以外: 終了
-
-    192.168.11.3 dbサーバー
-    user: gakusai
-    pass: gakusai
-*/
