@@ -122,23 +122,23 @@ export default function QuizBoard({}) {
   }, []);
 
   // 開始処理
-  useEffect(() => {
-    titleVoice.play();
+  // useEffect(() => {
+  //   titleVoice.play();
 
-    const catchCopy = new Audio("catch-copy001.wav");
+  //   const catchCopy = new Audio("catch-copy001.wav");
 
-    titleVoice.addEventListener("ended", () => {
-      setTimeout(() => {
-        catchCopy.play();
-      }, 7000);
-    });
+  //   titleVoice.addEventListener("ended", () => {
+  //     setTimeout(() => {
+  //       catchCopy.play();
+  //     }, 7000);
+  //   });
 
-    // オーディオの再生が終了したときやコンポーネントがアンマウントされたときにオーディオを停止するためのクリーンアップを提供する
-    return () => {
-      titleVoice.pause();
-      titleVoice.removeEventListener("ended", () => catchCopy.play());
-    };
-  }, []);
+  //   // オーディオの再生が終了したときやコンポーネントがアンマウントされたときにオーディオを停止するためのクリーンアップを提供する
+  //   return () => {
+  //     titleVoice.pause();
+  //     titleVoice.removeEventListener("ended", () => catchCopy.play());
+  //   };
+  // }, []);
 
   // イベントハンドラ各種
   useEffect(() => {
@@ -313,15 +313,3 @@ export default function QuizBoard({}) {
     </>
   );
 }
-
-/*
-テーブル構造
-target 1: red 2: blue 3: green
-status:
-    0: gamenow
-    それ以外: 終了
-
-    192.168.11.3 dbサーバー
-    user: gakusai
-    pass: gakusai
-*/

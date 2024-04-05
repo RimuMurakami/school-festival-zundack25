@@ -1,5 +1,5 @@
-import QuizBoard from "./components/QuizBoard";
 import { BrowserRouter } from "react-router-dom";
+import QuizBoard from "./components/QuizBoard";
 
 function App() {
   return (
