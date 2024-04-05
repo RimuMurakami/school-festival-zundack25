@@ -13,7 +13,7 @@ import { Button } from "@chakra-ui/react";
 
 export default function Alert() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const cancelRef = useRef();
+  const cancelRef = useRef(null);
 
   return (
     <>

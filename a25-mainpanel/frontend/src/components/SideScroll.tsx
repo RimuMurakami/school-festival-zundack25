@@ -1,8 +1,13 @@
-import { Box, Button, Center, Text, HStack } from "@chakra-ui/react";
+import { Box, Text, HStack } from "@chakra-ui/react";
 import Marquee from "react-fast-marquee";
 import { useState, useEffect } from "react";
 
-export default function SideScroll({ finalFlag, onKeydownAttack }) {
+type SideScrollProps = {
+  finalFlag: boolean;
+  onKeydownAttack: boolean;
+};
+
+export default function SideScroll({ finalFlag, onKeydownAttack }: SideScrollProps) {
   const [votes, setVotes] = useState([0, 0, 0]);
   const [votesCondition, setVotesCondition] = useState(false);
 
@@ -14,7 +19,7 @@ export default function SideScroll({ finalFlag, onKeydownAttack }) {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
-        let data = await response.json();
+        const data = await response.json();
 
         setVotes(data);
       } catch (error) {
@@ -37,7 +42,7 @@ export default function SideScroll({ finalFlag, onKeydownAttack }) {
   return (
     <>
       <Box bg={finalFlag ? gradationColor : onKeydownAttack ? gradationColor : "orange.100"}>
-        <Marquee gradient gradientWidth={100} height={20}>
+        <Marquee gradient gradientWidth={100}>
           <Box mt={2} fontSize={50}>
             <HStack spacing={10}>
               <Text onClick={() => setVotesCondition(!votesCondition)}>

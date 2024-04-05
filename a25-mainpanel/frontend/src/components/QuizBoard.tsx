@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 import SideScroll from "./SideScroll";
 import SideScrollBottom from "./SideScrollBottom";
-import PlayerScoreBoard from "./PlayerScoreBoard";
+import PlayerScoreBoard, { FinalQuizData } from "./PlayerScoreBoard";
 import StandingZunda from "./StandingZunda";
 import PanelBoard from "./PanelBoard";
 import SelectChallengeQuiz from "./SelectChallengeQuiz";
@@ -18,7 +18,7 @@ export default function QuizBoard() {
   const whiteColor = "white";
 
   const [color, setColor] = useState(redColor);
-  const [grid, setGrid] = useState(
+  const [grid, setGrid] = useState<string[][]>(
     Array(5)
       .fill("white")
       .map(() => Array(5).fill("white"))
@@ -30,7 +30,7 @@ export default function QuizBoard() {
   const [onKeydownAttack, setOnKeydownAttack] = useState(false);
   const [onKeydownDouble, setOnKeydownDouble] = useState(false);
 
-  const [finalQuizData, setFinalQuizData] = useState();
+  const [finalQuizData, setFinalQuizData] = useState<FinalQuizData | undefined>();
   const [finalFlag, setFinalFlag] = useState(false);
   const [voiceEndFlag, setVoiceEndFlag] = useState(false);
 
@@ -218,10 +218,11 @@ export default function QuizBoard() {
   const boxWidth = useBreakpointValue({ base: "100%" });
 
   // ファイナルクイズデータ取得処理
-  const fetchQuizData = async (type: string, id: number) => {
+  const fetchQuizData = async (type: string, id: string) => {
     try {
       const response = await fetch(`http://localhost:4444/${type}/${id}`);
       const data = await response.json();
+      console.log(data);
       setFinalQuizData(data);
       console.log("fetchQuizData: fetched!");
     } catch (error) {
@@ -231,9 +232,7 @@ export default function QuizBoard() {
 
   return (
     <>
-      {isChallenge && (
-        <FinalQuizDrawer fetchQuizData={fetchQuizData} finalQuizData={finalQuizData} setFinalFlag={setFinalFlag} />
-      )}
+      {isChallenge && <FinalQuizDrawer fetchQuizData={fetchQuizData} />}
       <Grid
         templateAreas={`"header header header"
                   "nav main standingZunda"
@@ -248,12 +247,7 @@ export default function QuizBoard() {
           <SideScroll finalFlag={finalFlag} onKeydownAttack={onKeydownAttack} />
         </GridItem>
         <GridItem bg="orange.50" area={"nav"} borderRight={"1px"} borderColor={"orange.100"}>
-          <PlayerScoreBoard
-            colorCounts={colorCounts}
-            color={color}
-            setIsChallenge={setIsChallenge}
-            finalQuizData={finalQuizData}
-          />
+          <PlayerScoreBoard colorCounts={colorCounts} color={color} finalQuizData={finalQuizData} />
         </GridItem>
         <GridItem p="2" bg="orange.50" area={"main"}>
           <Flex alignItems={"flex-end"} justifyContent={"center"}>
@@ -270,7 +264,6 @@ export default function QuizBoard() {
                       handleRejectFlipBoard={handleRejectFlipBoard}
                       finalQuizData={finalQuizData}
                       finalFlag={finalFlag}
-                      isChallenge={isChallenge}
                       setVoiceEndFlag={setVoiceEndFlag}
                       setFinalQuizEndedFlag={setFinalQuizEndedFlag}
                     />
@@ -278,13 +271,7 @@ export default function QuizBoard() {
                 />
                 <Route
                   path="select-challenge-quiz"
-                  element={
-                    <SelectChallengeQuiz
-                      setIsChallenge={setIsChallenge}
-                      finalFlag={finalFlag}
-                      setFinalFlag={setFinalFlag}
-                    />
-                  }
+                  element={<SelectChallengeQuiz setIsChallenge={setIsChallenge} setFinalFlag={setFinalFlag} />}
                 />
               </Routes>
             </Box>

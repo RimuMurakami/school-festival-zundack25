@@ -1,10 +1,14 @@
-import { Box, Button, Center, HStack } from "@chakra-ui/react";
+import { Box, HStack } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 import Marquee from "react-fast-marquee";
 
-export default function SideScrollBottom({ finalFlag, onKeydownAttack }) {
+type SideScrollBottomProps = {
+  finalFlag: boolean;
+  onKeydownAttack: boolean;
+};
+
+export default function SideScrollBottom({ finalFlag, onKeydownAttack }: SideScrollBottomProps) {
   const gradationColor = "linear-gradient(to right, red, orange, yellow, orange, red)";
   return (
     <>

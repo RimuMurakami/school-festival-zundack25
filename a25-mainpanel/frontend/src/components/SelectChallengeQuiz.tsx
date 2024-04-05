@@ -1,10 +1,14 @@
-import { Button, Stack, HStack, Heading, Text, Box, keyframes } from "@chakra-ui/react";
+import { Button, Stack, HStack, Box, keyframes } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default function SelectChallengeQuiz({ setIsChallenge, finalFlag, setFinalFlag }) {
-  const [genreButton, setGenreButton] = useState("");
-  const [blinkingButton, setBlinkingButton] = useState(null);
+type SelectChallengeQuizProps = {
+  setIsChallenge: React.Dispatch<React.SetStateAction<boolean>>;
+  setFinalFlag: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+export default function SelectChallengeQuiz({ setIsChallenge, setFinalFlag }: SelectChallengeQuizProps) {
+  const [blinkingButton, setBlinkingButton] = useState<number>();
   const navigate = useNavigate();
 
   const genreSelect = new Audio("final-quiz/genre-select.mp3");
@@ -38,12 +42,12 @@ export default function SelectChallengeQuiz({ setIsChallenge, finalFlag, setFina
     </Button>
   ));
 
-  const handleButtonClick = (index) => {
+  const handleButtonClick = (index: number) => {
     setFinalFlag(true);
     genreSelect.play();
     setBlinkingButton(index);
     setTimeout(() => {
-      setBlinkingButton(null);
+      setBlinkingButton(-1);
       navigate("/");
     }, 2000); // 2秒後に点滅を停止
   };

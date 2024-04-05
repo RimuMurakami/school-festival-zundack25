@@ -1,5 +1,17 @@
 import { useEffect, useState } from "react";
 import { Stack, Box, Center, Text, Button } from "@chakra-ui/react";
+import { FinalQuizData } from "./PlayerScoreBoard";
+
+type StandingZundaProps = {
+  isChallenge: boolean;
+  onKeydownAttack: boolean;
+  setOnKeydownAttack: React.Dispatch<React.SetStateAction<boolean>>;
+  onKeydownDouble: boolean;
+  setOnKeydownDouble: React.Dispatch<React.SetStateAction<boolean>>;
+  finalQuizData: FinalQuizData | undefined;
+  voiceEndFlag: boolean;
+  finalQuizEndedFlag: boolean;
+};
 
 export default function StandingZunda({
   isChallenge,
@@ -10,31 +22,7 @@ export default function StandingZunda({
   finalQuizData,
   voiceEndFlag,
   finalQuizEndedFlag,
-}) {
-  // イベントハンドラ各種
-  useEffect(() => {
-    // const handleAttackChanceSoundEnded = () => {
-    //   attackCanceVoice.play();
-    // };
-    // const handleDoubleChanceSoundEnded = () => {
-    //   doubleCanceVoice.play();
-    // };
-    // // const handleTitleVoiceEnded = () => {
-    // //   titleAudio.volume = 0.3;
-    // //   setTimeout(() => {
-    // //     titleAudio.play();
-    // //   }, 500);
-    // // };
-    // attackChanceSound.addEventListener("ended", handleAttackChanceSoundEnded);
-    // doubleChanceSound.addEventListener("ended", handleDoubleChanceSoundEnded);
-    // // titleVoice.addEventListener("ended", handleTitleVoiceEnded);
-    // return () => {
-    //   attackChanceSound.removeEventListener("ended", onClickAttackButton);
-    //   doubleChanceSound.removeEventListener("ended", handleDoubleChanceSoundEnded);
-    //   // titleVoice.removeEventListener("ended", handleTitleVoiceEnded);
-    // };
-  }, []);
-
+}: StandingZundaProps) {
   const [zundaTalk, setZundaTalk] = useState("クイズとオセロの複合勝負なのだ！");
 
   useEffect(() => {
@@ -47,9 +35,10 @@ export default function StandingZunda({
       setZundaTalk(finalQuizData.questionText);
     }
     if (finalQuizEndedFlag) {
-      setZundaTalk(`正解は「${finalQuizData.answerText}」なのだ！`);
+      if (finalQuizData) {
+        setZundaTalk(`正解は「${finalQuizData.answerText}」なのだ！`);
+      }
     }
-    // console.log(zundaTalk);
   }, [isChallenge, finalQuizData, voiceEndFlag, finalQuizEndedFlag]);
 
   return (

@@ -1,10 +1,34 @@
 import { VStack, Box, Center, Text, Image } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 
-import logo from "/zunda-mike0002.png";
-import finalZunda from "/final-quiz/final-zunda001.png";
+const logo = "/zunda-mike0002.png";
+const finalZunda = "/final-quiz/final-zunda001.png";
 
-export default function PlayerScoreBoard({ colorCounts, color, setIsChallenge, finalQuizData }) {
+export type FinalQuizData = {
+  id: string;
+  basePath: string;
+  questionText: string;
+  questionVoice: string;
+  answerText: string;
+  answerVoice: string;
+  explanation: string;
+  expVoice: string;
+  answerImagePath: string;
+  imagePath: string[];
+  music: string;
+  difficulty: string;
+};
+
+type PlayerScoreBoardProps = {
+  colorCounts: {
+    red: number;
+    green: number;
+    blue: number;
+  };
+  color: string;
+  finalQuizData: FinalQuizData | undefined;
+};
+
+export default function PlayerScoreBoard({ colorCounts, color, finalQuizData }: PlayerScoreBoardProps) {
   const { red, green, blue } = colorCounts;
   const focusFrame = {
     border: "1px",
@@ -12,22 +36,21 @@ export default function PlayerScoreBoard({ colorCounts, color, setIsChallenge, f
     px: 3,
   };
 
-  let onColorRed = "";
-  let onColorBlue = "";
-  let onColorGreen = "";
-  onColorRed = color === "red.300" ? focusFrame : "";
-  onColorBlue = color === "blue.300" ? focusFrame : "";
-  onColorGreen = color === "green.300" ? focusFrame : "";
+  let onColorRed = {};
+  let onColorBlue = {};
+  let onColorGreen = {};
+  onColorRed = color === "red.300" ? focusFrame : {};
+  onColorBlue = color === "blue.300" ? focusFrame : {};
+  onColorGreen = color === "green.300" ? focusFrame : {};
 
   return (
     <VStack p={5}>
       <Box mx={2} w={"100%"} maxW={280}>
-        {/* <Image src={finalQuizData ? finalZunda : logo} onClick={() => setIsChallenge(false)} alt="" w={10000} /> */}
         <Image src={finalQuizData ? finalZunda : logo} alt="" />
       </Box>
       <Box>
         <Center>
-          <Box mb={1} fontSize={40} color={"red"} {...onColorRed} value={"red.300"}>
+          <Box mb={1} fontSize={40} color={"red"} {...onColorRed}>
             赤プレイヤー
           </Box>
         </Center>
