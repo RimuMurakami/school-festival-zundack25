@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Box, Grid, GridItem, Center, Text, AspectRatio, Flex, Stack, Button } from "@chakra-ui/react";
+import { useState, useEffect } from "react";
+import { Box, Grid, GridItem, Flex } from "@chakra-ui/react";
 import { useBreakpointValue } from "@chakra-ui/react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import SideScroll from "./SideScroll";
 import SideScrollBottom from "./SideScrollBottom";
@@ -11,7 +11,7 @@ import PanelBoard from "./PanelBoard";
 import SelectChallengeQuiz from "./SelectChallengeQuiz";
 import FinalQuizDrawer from "./FinalQuizDrawer";
 
-export default function QuizBoard({}) {
+export default function QuizBoard() {
   const redColor = "red.300";
   const blueColor = "blue.300";
   const greenColor = "green.300";
@@ -20,12 +20,11 @@ export default function QuizBoard({}) {
   const [color, setColor] = useState(redColor);
   const [grid, setGrid] = useState(
     Array(5)
-      .fill()
+      .fill("white")
       .map(() => Array(5).fill("white"))
   );
 
   const [isChallenge, setIsChallenge] = useState(false);
-  const [imageUrl, setImageUrl] = useState([]);
   const [panelOpacity, setPanelOpacity] = useState(true);
   const [changeFlipColor, setChangeFlipColor] = useState(true);
   const [onKeydownAttack, setOnKeydownAttack] = useState(false);
@@ -65,6 +64,8 @@ export default function QuizBoard({}) {
     doubleChanceSound,
     doubleCanceVoice,
   ];
+
+  type Keys = "1" | "2" | "3" | "4" | "5" | "6" | "q" | "w" | "escape";
 
   // keydown処理
   useEffect(() => {
@@ -111,8 +112,9 @@ export default function QuizBoard({}) {
       },
     };
 
-    const handleKeydown = (e) => {
-      const action = keyActions[e.key.toLowerCase()];
+    const handleKeydown = (e: KeyboardEvent) => {
+      const key: Keys = e.key.toLowerCase() as Keys;
+      const action = keyActions[key];
       if (action) action();
     };
 
@@ -121,7 +123,7 @@ export default function QuizBoard({}) {
     return () => window.removeEventListener("keydown", handleKeydown);
   }, []);
 
-  // 開始処理
+  // 開始処理 *開発時はコメントアウト*
   // useEffect(() => {
   //   titleVoice.play();
 
@@ -182,15 +184,14 @@ export default function QuizBoard({}) {
     cardFlip.play();
   };
   // フリップ色変換処理
-  const handleOnClick = (i, j) => {
+  const handleOnClick = (i: number, j: number) => {
     const newGrid = [...grid];
     newGrid[i][j] = color;
     setGrid(newGrid);
   };
 
-  // TODO 最難関
-  // オセロ機能の実装
-  const handleFlipPanel = (i, j) => {
+  // TODO: オセロ機能の実装
+  const handleFlipPanel = (i: number, j: number) => {
     console.log("onclicked");
     // if (color === whiteColor) {
     //   grid[i][j] = whiteColor;
@@ -204,8 +205,8 @@ export default function QuizBoard({}) {
     handleOnClick(i, j);
   };
 
-  // 各色パネル数計算処理　前後入れ替え禁止
-  const countColor = (targetColor) => {
+  // 各色パネル数計算処理 前後入れ替え禁止
+  const countColor = (targetColor: string) => {
     return grid.flat().filter((color) => color === targetColor).length;
   };
   const colorCounts = {
@@ -217,7 +218,7 @@ export default function QuizBoard({}) {
   const boxWidth = useBreakpointValue({ base: "100%" });
 
   // ファイナルクイズデータ取得処理
-  const fetchQuizData = async (type, id) => {
+  const fetchQuizData = async (type: string, id: number) => {
     try {
       const response = await fetch(`http://localhost:4444/${type}/${id}`);
       const data = await response.json();
@@ -264,8 +265,6 @@ export default function QuizBoard({}) {
                     <PanelBoard
                       grid={grid}
                       handleFlipPanel={handleFlipPanel}
-                      setIsChallenge={setIsChallenge}
-                      imageUrl={imageUrl}
                       panelOpacity={panelOpacity}
                       changeFlipColor={changeFlipColor}
                       handleRejectFlipBoard={handleRejectFlipBoard}
@@ -282,7 +281,6 @@ export default function QuizBoard({}) {
                   element={
                     <SelectChallengeQuiz
                       setIsChallenge={setIsChallenge}
-                      setImageUrl={(imageUrl, setImageUrl)}
                       finalFlag={finalFlag}
                       setFinalFlag={setFinalFlag}
                     />
@@ -307,7 +305,7 @@ export default function QuizBoard({}) {
           </Box>
         </GridItem>
         <GridItem area={"footer"}>
-          <SideScrollBottom isChallenge={isChallenge} finalFlag={finalFlag} onKeydownAttack={onKeydownAttack} />
+          <SideScrollBottom finalFlag={finalFlag} onKeydownAttack={onKeydownAttack} />
         </GridItem>
       </Grid>
     </>

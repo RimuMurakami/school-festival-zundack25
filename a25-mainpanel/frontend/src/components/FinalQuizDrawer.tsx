@@ -10,15 +10,18 @@ import {
   Button,
   Heading,
   Stack,
-  Box,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useRef } from "react";
 import { useEffect, useState } from "react";
 
-export default function FinalQuizDrawer({ fetchQuizData, finalQuizData, setFinalFlag }) {
+type FinalQuizDrawerProps = {
+  fetchQuizData: (type: string, id: string) => void;
+};
+
+export default function FinalQuizDrawer({ fetchQuizData }: FinalQuizDrawerProps) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef = useRef();
+  const btnRef = useRef<HTMLButtonElement>(null);
   const [data, setData] = useState({
     anime: [],
     geography: [],
@@ -26,7 +29,7 @@ export default function FinalQuizDrawer({ fetchQuizData, finalQuizData, setFinal
     sports: [],
   });
 
-  const QuizButton = ({ type, id }) => {
+  const QuizButton = ({ type, id }: { type: string; id: string }) => {
     return (
       <Button
         rounded="full"
@@ -42,7 +45,7 @@ export default function FinalQuizDrawer({ fetchQuizData, finalQuizData, setFinal
   // JSON取得処理
   useEffect(() => {
     // 各リソースを非同期に取得する関数
-    const fetchResource = async (resource) => {
+    const fetchResource = async (resource: string) => {
       const response = await fetch(`http://localhost:4444/${resource}`);
       if (response.ok) {
         return await response.json();
@@ -77,7 +80,7 @@ export default function FinalQuizDrawer({ fetchQuizData, finalQuizData, setFinal
       <Button ref={btnRef} onClick={onOpen} position={"absolute"} zIndex={10} left={8} top={8} bg={"transparent"}>
         <HamburgerIcon />
       </Button>
-      <Drawer isOpen={isOpen} placement="left" onClose={onClose} finalFocusRef={btnRef} style={{ margin: "0" }}>
+      <Drawer isOpen={isOpen} placement="left" onClose={onClose} finalFocusRef={btnRef}>
         {/* <DrawerOverlay /> */}
         <DrawerContent style={{ width: "100px" }}>
           <DrawerCloseButton />
