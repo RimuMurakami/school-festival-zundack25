@@ -43,7 +43,7 @@ export default function SideScroll({ finalFlag, onKeydownAttack }: SideScrollPro
     <>
       <Box bg={finalFlag ? gradationColor : onKeydownAttack ? gradationColor : "orange.100"}>
         <Marquee gradient gradientWidth={100}>
-          <Box mt={2} fontSize={50}>
+          <Box mt={2}>
             <HStack spacing={10}>
               <Text onClick={() => setVotesCondition(!votesCondition)}>
                 {votesCondition ? "投票状況：" : "受付終了："}

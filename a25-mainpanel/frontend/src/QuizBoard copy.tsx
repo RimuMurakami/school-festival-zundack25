@@ -3,13 +3,13 @@ import { Box, Grid, GridItem, Flex } from "@chakra-ui/react";
 import { useBreakpointValue } from "@chakra-ui/react";
 import { Routes, Route } from "react-router-dom";
 
-import SideScroll from "./SideScroll";
-import SideScrollBottom from "./SideScrollBottom";
-import PlayerScoreBoard, { FinalQuizData } from "./PlayerScoreBoard";
-import StandingZunda from "./StandingZunda";
-import PanelBoard from "./PanelBoard";
-import SelectChallengeQuiz from "./SelectChallengeQuiz";
-import FinalQuizDrawer from "./FinalQuizDrawer";
+import SideScroll from "./components/SideScroll";
+import SideScrollBottom from "./components/SideScrollBottom";
+import PlayerScoreBoard, { FinalQuizData } from "./components/PlayerScoreBoard";
+import StandingZunda from "./components/StandingZunda";
+import PanelBoard from "./components/PanelBoard";
+import SelectChallengeQuiz from "./components/SelectChallengeQuiz";
+import FinalQuizDrawer from "./components/FinalQuizDrawer";
 
 export default function QuizBoard() {
   const redColor = "red.300";
@@ -235,7 +235,7 @@ export default function QuizBoard() {
       {isChallenge && <FinalQuizDrawer fetchQuizData={fetchQuizData} />}
       <Grid
         templateAreas={`"header header header"
-                  "nav main standingZunda"
+                  "leftSideNav mainPanel rightSideNav"
                   "footer footer footer"`}
         gridTemplateRows={"auto 1fr auto"}
         gridTemplateColumns={"auto 1fr auto"}
@@ -246,10 +246,10 @@ export default function QuizBoard() {
         <GridItem area={"header"}>
           <SideScroll finalFlag={finalFlag} onKeydownAttack={onKeydownAttack} />
         </GridItem>
-        <GridItem bg="orange.50" area={"nav"} borderRight={"1px"} borderColor={"orange.100"}>
+        <GridItem bg="orange.50" area={"leftSideNav"} borderRight={"1px"} borderColor={"orange.100"}>
           <PlayerScoreBoard colorCounts={colorCounts} color={color} finalQuizData={finalQuizData} />
         </GridItem>
-        <GridItem p="2" bg="orange.50" area={"main"}>
+        <GridItem p="2" bg="orange.50" area={"mainPanel"}>
           <Flex alignItems={"flex-end"} justifyContent={"center"}>
             <Box p={1} w={boxWidth} maxWidth={1200}>
               <Routes>
@@ -277,7 +277,7 @@ export default function QuizBoard() {
             </Box>
           </Flex>
         </GridItem>
-        <GridItem area={"standingZunda"} borderLeft={"1px"} borderColor={"orange.100"} p={3}>
+        <GridItem area={"rightSideNav"} borderLeft={"1px"} borderColor={"orange.100"} p={3}>
           <Box>
             <StandingZunda
               isChallenge={isChallenge}

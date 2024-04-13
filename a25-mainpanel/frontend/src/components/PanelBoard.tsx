@@ -258,7 +258,7 @@ export default function PanelBoard({
         {grid.map((row, i) =>
           row.map((cellColor, j) => (
             <GridItem key={`${i}-${j}`}>
-              <AspectRatio ratio={4 / 3} w="100%">
+              <AspectRatio ratio={4 / 3}>
                 <Box
                   bg={cellColor}
                   borderWidth="2px"
@@ -274,7 +274,7 @@ export default function PanelBoard({
                   opacity={opacityGrid[i][j]}
                 >
                   <Center height="100%">
-                    <Text fontSize={"6xl"}>{i * 5 + j + 1}</Text>
+                    <Text fontSize={"4rem"}>{i * 5 + j + 1}</Text>
                   </Center>
                 </Box>
               </AspectRatio>

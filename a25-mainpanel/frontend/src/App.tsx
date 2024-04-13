@@ -1,12 +1,9 @@
-import { BrowserRouter } from "react-router-dom";
-import QuizBoard from "./components/QuizBoard";
+import QuizBoard from "./QuizBoard";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <QuizBoard />
-      </BrowserRouter>
+      <QuizBoard />
     </>
   );
 }

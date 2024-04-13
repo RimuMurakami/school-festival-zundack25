@@ -1,4 +1,4 @@
-import { Box, HStack } from "@chakra-ui/react";
+import { Box, HStack, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 import Marquee from "react-fast-marquee";
@@ -16,9 +16,9 @@ export default function SideScrollBottom({ finalFlag, onKeydownAttack }: SideScr
         <Marquee gradient gradientWidth={100} direction="right">
           <Link to={"select-challenge-quiz"}>
             <HStack spacing={4}>
-              <img src="zunda02.png" width={"85"} alt="" />
-              <img src="zunda02.png" width={"85"} alt="" />
-              <img src="zunda02.png" width={"85"} alt="" />
+              <Image src="zunda02.png" h={"10%"} alt="" />
+              <img src="zunda02.png" width={"70"} alt="" />
+              <img src="zunda02.png" width={"70"} alt="" />
             </HStack>
           </Link>
         </Marquee>

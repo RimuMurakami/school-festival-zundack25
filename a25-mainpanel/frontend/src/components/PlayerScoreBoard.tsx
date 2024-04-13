@@ -44,41 +44,33 @@ export default function PlayerScoreBoard({ colorCounts, color, finalQuizData }: 
   onColorGreen = color === "green.300" ? focusFrame : {};
 
   return (
-    <VStack p={5}>
-      <Box mx={2} w={"100%"} maxW={280}>
-        <Image src={finalQuizData ? finalZunda : logo} alt="" />
-      </Box>
-      <Box>
-        <Center>
-          <Box mb={1} fontSize={40} color={"red"} {...onColorRed}>
-            赤プレイヤー
-          </Box>
-        </Center>
-        <Box bgColor={"red.300"} width={80} height={36} rounded={"full"} boxShadow={"2xl"}>
-          <Center>
-            <Text fontSize={"8xl"}>{red}</Text>
-          </Center>
+    <VStack>
+      {/* <Box>
+        <Image src={finalQuizData ? finalZunda : logo} alt="zunda-mike" />
+      </Box> */}
+      <Box w={"100%"}>
+        <Box mb={1} fontSize={40} color={"red"} {...onColorRed}>
+          <Center>赤プレイヤー</Center>
+        </Box>
+        <Box bgColor={"red.300"} rounded={"full"} boxShadow={"2xl"}>
+          <Center fontSize={"8xl"}>{red}</Center>
         </Box>
       </Box>
-      <Box>
-        <Center>
-          <Box mb={1} fontSize={40} color={"blue"} {...onColorBlue}>
-            青プレイヤー
-          </Box>
-        </Center>
-        <Box bgColor={"blue.300"} width={80} height={36} rounded={"full"} boxShadow={"2xl"}>
+      <Box w={"100%"}>
+        <Box mb={1} fontSize={40} color={"blue"} {...onColorBlue}>
+          <Center>青プレイヤー</Center>
+        </Box>
+        <Box bgColor={"blue.300"} rounded={"full"} boxShadow={"2xl"}>
           <Center>
             <Text fontSize={"8xl"}>{blue}</Text>
           </Center>
         </Box>
       </Box>
-      <Box>
-        <Center>
-          <Box mb={1} fontSize={40} color={"green"} {...onColorGreen}>
-            緑プレイヤー
-          </Box>
-        </Center>
-        <Box bgColor={"green.300"} width={80} height={36} rounded={"full"} boxShadow={"2xl"}>
+      <Box w={"100%"}>
+        <Box mb={1} fontSize={40} color={"green"} {...onColorGreen}>
+          <Center>緑プレイヤー</Center>
+        </Box>
+        <Box bgColor={"green.300"} rounded={"full"} boxShadow={"2xl"}>
           <Center>
             <Text fontSize={"8xl"}>{green}</Text>
           </Center>

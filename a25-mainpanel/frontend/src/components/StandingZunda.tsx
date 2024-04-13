@@ -99,9 +99,7 @@ export default function StandingZunda({
               <Text fontSize={"3xl"}>{zundaTalk}</Text>
             </Center>
           </Box>
-          <Box maxWidth={300}>
-            <img src="zunda01.png" alt="" />
-          </Box>
+          <Box maxWidth={300}>{/* <img src="zunda01.png" alt="" /> */}</Box>
         </Box>
       </Stack>
     </>
