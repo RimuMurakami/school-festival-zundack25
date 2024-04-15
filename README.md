@@ -1,4 +1,4 @@
-# 学祭用クイズアプリ　〜ずんダック２５〜
+# 祭事用クイズアプリ　〜ずんダック２５〜
 
 ![panel](https://github.com/RimuMurakami/school-festival-zundack25/assets/118171336/92c737db-6943-46c4-bd94-c6a2344a1653)
 ![zundack3](https://github.com/RimuMurakami/school-festival-zundack25/assets/118171336/d8aa32ea-09ad-4ca3-954a-bd75bc2753ac)
@@ -6,7 +6,7 @@
 
 ## 説明
 
-某有名 TV 番組のパネルクイズを模した学祭用のクイズアプリです。  
+某有名 TV 番組のパネルクイズを模した祭事用のクイズアプリです。  
 以下、主な機能
 
 - 早押し回答（Joytokey 等を使用し、３つのコントローラを使用）
@@ -27,7 +27,7 @@
 
 # <br>
 
-※入場無料の学祭で実施したので、その際に使用した著作権アウトなデータは除外しています。<br>
+※入場無料の祭事で実施したので、画像・動画・音楽問題のデータは除外しています。<br>
 
 - 例：
   - 問題ジャンルの[picture, video, music]
